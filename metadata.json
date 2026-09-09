@@ -1,0 +1,16 @@
+{
+  "dataset_name": "Garmin-Inspired Synthetic Wearable Data Engineering Dataset",
+  "generated_on": "2026-08-13",
+  "seed": 42,
+  "privacy": "100% synthetic; no Garmin customer data and no real individuals.",
+  "tables": {
+    "users.csv": 5000,
+    "devices.csv": 7500,
+    "daily_health.csv": 1825000,
+    "sleep.csv": 310250,
+    "activities.csv": 180000,
+    "activity_hr_samples.csv": 900000,
+    "device_telemetry.csv": 1500000
+  },
+  "quality_note": "A very small, controlled amount of missingness is intentionally injected to support data-quality testing in the engineering pipeline."
+}
